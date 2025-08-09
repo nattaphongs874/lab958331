@@ -14,8 +14,8 @@ function moreInfo ()
     const btn = document.getElementById("downloadBtn");
     btn.addEventListener("click", function(){
         const link = document.createElement("a");
-        link.href = "CV.pdf"; 
-        link.download = "CV.pdf"; 
+        link.href = "CV.png"; 
+        link.download = "CV.png"; 
         link.click();
     })
 }
